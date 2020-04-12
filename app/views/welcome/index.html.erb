@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%= stylesheet_link_tag "/assets/layout.css" %>
+    <%= stylesheet_link_tag "/css/master.css" %>
+    <%= javascript_include_tag "/assets/jquery.js" %>
+    <%= javascript_include_tag "/assets/main.js" %>
+    <title>Bloowery</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <%= image_tag "/assets/logo-bloowery.svg" %>
+        <ul>
+          <a href="#benefit-1">Трекинг</a>
+          <a href="#benefit-2">Рекомендации</a>
+          <a href="#benefit-3">Диагностика</a>
+          <a href="#benefit-4">Скачать приложение</a>
+          <a href="#review">Отзывы</a>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="main">
+        <h1>Ухаживайте за&nbsp;растениями проще с&nbsp;Bloowery</h1>
+        <p>Следите за&nbsp;состоянием растений, поддерживайте их&nbsp;здоровье с&nbsp;помощью сервиса трекинга и&nbsp;диагностики растений Bloowery.</p>
+        <img class="cover" src="/assets/cover.svg" alt="image-main">
+        <div class="download-free">
+          <div class="heading">
+            <%= image_tag "/assets/download-icon.svg" %>
+            <a href="#">Скачать Bloowery бесплатно</a>
+          </div>
+          <img class="icon-appstore" src="/assets/Download_on_the_App_Store_Badge_RU_RGB_blk_100317.svg" alt="download-appstore">
+        </div>
+      </section>
+      <section id="benefit-1">
+          <div class="animation-proto-1">
+            <%= image_tag "/assets/Animation App.gif" %>
+            <%= image_tag "/assets/iphone.svg" %>
+          </div>
+          <div class="text-1">
+            <h2>Отслеживаем состояние растений</h2>
+            <p>Фиксируйте всё, что вы&nbsp;делаете с&nbsp;растением для точных результатов диагностики: полив, удобрение, свет в&nbsp;помещении и&nbsp;другие параметры.</p>
+            <div class="heading">
+              <%= image_tag "/assets/download-icon.svg" %>
+              <a href="#">Попробовать трекер</a>
+            </div>
+          </div>
+      </section>
+      <section id="benefit-2">
+          <div class="text-2">
+            <h2>Делимся лучшими рекомендациями</h2>
+            <p>Вместе с&nbsp;командой профессионалов мы&nbsp;составили базу рекомендаций, которые помогут вам заботиться о&nbsp;своих зелёных друзьях лучше и&nbsp;эффективнее.</p>
+            <div class="heading">
+              <%= image_tag "/assets/download-icon.svg" %>
+              <a href="#">Получить доступ к&nbsp;рекомендациям</a>
+            </div>
+          </div>
+          <div class="animation-proto-2">
+            <%= image_tag "/assets/web1.gif" %>
+            <%= image_tag "/assets/desktop.svg" %>
+          </div>
+      </section>
+      <section id="benefit-3">
+          <div class="animation-proto-1">
+            <%= image_tag "/assets/animated prototype.gif" %>
+            <%= image_tag "/assets/iphone.svg" %>
+          </div>
+          <div class="text-3">
+            <h2>Помогаем лечить больные растения</h2>
+            <p>Используя внесённые вами данные о&nbsp;том, как вы&nbsp;ухаживаете за&nbsp;растениями, мы&nbsp;поможем понять, чем болеет ваш фикус и&nbsp;как помочь ему поправиться!</p>
+            <div class="heading">
+              <%= image_tag "/assets/download-icon.svg" %>
+              <a href="#">Проверить здоровье растений</a>
+            </div>
+          </div>
+      </section>
+      <section id="benefit-4">
+          <div class="text-4">
+            <h2>Всё, что вам нужно, у&nbsp;вас под рукой</h2>
+            <p>Вам не&nbsp;понадобятся дополнительные датчики и&nbsp;другие измерительные приборы. Всё, что вам нужно&nbsp;&mdash; скачать приложение на&nbsp;телефон или открыть его в&nbsp;браузере.</p>
+            <div class="heading">
+              <%= image_tag "/assets/download-icon.svg" %>
+              <a href="#">Попробовать сейчас</a>
+            </div>
+          </div>
+          <div class="animation-proto-3">
+            <%= image_tag "/assets/applewatch.gif" %>
+          </div>
+      </section>
+      <section id="review">
+        <div class="review-content">
+          <p>&laquo;А&nbsp;когда это можно будет уже скачать? Я&nbsp;очень жду и&nbsp;мои подруги тоже!&raquo;</p>
+          <div class="author">
+            <%= image_tag "/assets/photo-review.png" %>
+            <span>Мадина, мама Мэри</span>
+          </div>
+        </div>
+      </section>
+      <section id="try-free">
+        <div class="try-bloowery-content">
+          <div class="text">
+            <h2>Попробуйте Bloowery</h2>
+            <p>Сделайте уход за&nbsp;растениями проще вместе с&nbsp;нами. Установите приложение!</p>
+            <div class="heading-alt">
+              <%= image_tag "/assets/dowload-icon-alt.svg" %>
+              <a href="#">Скачать бесплатно</a>
+            </div>
+          </div>
+          <%= image_tag "/assets/desktop-mockup.png" %>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="links">
+        <div class="content">
+          <h3>Наше приложение</h3>
+          <a href="#">iOS</a>
+        </div>
+        <div class="content">
+          <h3>Социальные сети</h3>
+          <a target="_blank" href="https://www.instagram.com/bloowery/">Instagram</a>
+          <a target="_blank" href="https://vk.com/bloowery">VK</a>
+          <a target="_blank" href="https://twitter.com/bloowery">Twitter</a>
+        </div>
+        <div class="content">
+          <h3>О нас</h3>
+          <a target="_blank" href="#">О бренде</a>
+          <a target="_blank" href="#">Об авторах</a>
+          <a target="_blank" href="#">О наших проектах</a>
+        </div>
+        <div class="content">
+          <h3>Поддержка</h3>
+          <a target="_blank" href="#">Связаться с поддержкой</a>
+          <a target="_blank" href="#">Часто задаваемые вопросы</a>
+        </div>
+      </section>
+      <section class="extra">
+        <p>Copyright © 2020 HSE ADC </p>
+        <div class="extra-2">
+          <a target="_blank" href="#">Куки</a>
+          <a target="_blank" href="#">Политика конфиденциальности</a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
